@@ -1,0 +1,230 @@
+<!-- Code writen by asuriii4 hello horizon :D -->
+<!DOCTYPE html>
+<html lang="en">
+<head></head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Diet Programs — Build your calorie & macro plan | AquaFit</title>
+<meta name="description" content="Enter your height and weight to calculate your BMI, BMR and daily calorie target, and get a matched weight loss diet program.">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav class="site-nav">
+  <div class="wrap">
+    <a href="index.html" class="brand"></a>
+      <span class="brand-mark"></span>
+      AquaFit
+    </a>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="index.html#research">The Research</a></li>
+      <li><a href="index.html#approaches">Approaches</a></li>
+      <li><a href="diet-programs.html" class="active">Diet Programs</a></li>
+    </ul>
+    <div class="nav-cta">
+      <a href="#calculator" class="btn btn-wave">Jump to calculator</a>
+    </div>
+  </div>
+</nav>
+
+<header class="hero" style="padding-bottom:2.5rem;">
+  <div class="wrap">
+    <p class="eyebrow">Diet Programs</p>
+    <h1 style="max-width:16ch;">Your numbers, <em>calculated</em> for you.</h1>
+    <p class="lede">Fill in your stats once. AquaFit works out your BMI, resting energy
+    needs, a safe calorie target for your goal pace, a macro split, and a matching
+    diet program — all in your browser, nothing is sent anywhere.</p>
+  </div>
+  <div class="wave-divider">
+    <svg viewBox="0 0 1200 80" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+      <path fill="#f5fdfc" d="M0,40 C200,90 400,0 600,30 C800,60 1000,10 1200,40 L1200,80 L0,80 Z"/>
+    </svg>
+  </div>
+</header>
+
+<section id="calculator" class="section-pad" style="padding-top:0;">
+  <div class="wrap calc-layout">
+
+    <form class="calc-card" id="dietForm" novalidate>
+      <h3>Tell us about you</h3>
+      <p class="sub">Used only in your browser to run the calculation below.</p>
+
+      <div class="calc-error" id="formError">Please check the highlighted fields — enter realistic height and weight values.</div>
+
+      <div class="unit-toggle" role="group" aria-label="Units">
+        <button type="button" class="active" data-units="metric" id="unitMetricBtn">Metric (cm / kg)</button>
+        <button type="button" data-units="imperial" id="unitImperialBtn">Imperial (in / lb)</button>
+      </div>
+
+      <div class="field-row">
+        <div class="field">
+          <label for="height">Height <span id="heightUnit">(cm)</span></label>
+          <input type="number" id="height" inputmode="decimal" placeholder="e.g. 175" required min="1">
+        </div>
+        <div class="field">
+          <label for="weight">Weight <span id="weightUnit">(kg)</span></label>
+          <input type="number" id="weight" inputmode="decimal" placeholder="e.g. 78" required min="1">
+        </div>
+      </div>
+
+      <div class="field-row">
+        <div class="field">
+          <label for="age">Age</label>
+          <input type="number" id="age" inputmode="numeric" placeholder="e.g. 27" required min="14" max="90">
+        </div>
+        <div class="field">
+          <label for="sex">Biological sex</label>
+          <select id="sex" required>
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="field">
+        <label for="activity">Activity level</label>
+        <select id="activity">
+          <option value="1.2">Sedentary — desk job, little exercise</option>
+          <option value="1.375" selected>Light — exercise 1–3 days / week</option>
+          <option value="1.55">Moderate — exercise 3–5 days / week</option>
+          <option value="1.725">Very active — exercise 6–7 days / week</option>
+          <option value="1.9">Extra active — hard training + physical job</option>
+        </select>
+      </div>
+
+      <div class="field">
+        <label>Goal pace</label>
+        <div class="goal-pills" id="goalPills">
+          <label class="goal-pill checked">
+            <input type="radio" name="goal" value="mild" checked>
+            <span>Mild</span>
+            <small>−0.25 kg/wk</small>
+          </label>
+          <label class="goal-pill">
+            <input type="radio" name="goal" value="moderate">
+            <span>Moderate</span>
+            <small>−0.5 kg/wk</small>
+          </label>
+          <label class="goal-pill">
+            <input type="radio" name="goal" value="aggressive">
+            <span>Faster</span>
+            <small>−0.75 kg/wk</small>
+          </label>
+        </div>
+      </div>
+
+      <button type="submit" class="btn btn-primary calc-submit">Calculate my plan →</button>
+    </form>
+
+    <div class="results">
+      <div class="results-empty" id="resultsEmpty">
+        <svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <circle cx="32" cy="32" r="30" stroke="#0a7d74" stroke-width="2"/>
+          <path d="M20 34c4-10 8 6 12-4s8 6 12-4" stroke="#14b8a6" stroke-width="2" stroke-linecap="round"/>
+        </svg>
+        <h4 style="font-family:var(--font-display); font-size:1.1rem;">Your results will appear here</h4>
+        <p style="font-size:0.9rem; max-width:32ch;">Fill in the form and hit calculate — your BMI, calorie target, macros and diet program will fill this panel.</p>
+      </div>
+
+      <div class="results-content" id="resultsContent">
+
+        <div class="result-top">
+          <div class="gauge-card">
+            <div class="gauge">
+              <div class="gauge-liquid" id="gaugeLiquid">
+                <svg viewBox="0 0 300 60" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+                  <path fill="#14b8a6" d="M0,20 C50,0 100,40 150,20 C200,0 250,40 300,20 L300,60 L0,60 Z"/>
+                </svg>
+              </div>
+              <div class="gauge-num">
+                <b id="gaugeBmi">--</b>
+                <span>BMI</span>
+              </div>
+            </div>
+            <div class="gauge-caption" id="bmiCategory">—</div>
+          </div>
+
+          <div class="stat-stack">
+            <div class="stat-row">
+              <span class="label">BMR (resting energy)</span>
+              <span class="value" id="statBmr">-- kcal</span>
+            </div>
+            <div class="stat-row">
+              <span class="label">Maintenance (TDEE)</span>
+              <span class="value" id="statTdee">-- kcal</span>
+            </div>
+            <div class="stat-row">
+              <span class="label">Daily target for your goal</span>
+              <span class="value" id="statTarget">-- kcal</span>
+            </div>
+            <div class="stat-row">
+              <span class="label">Estimated pace</span>
+              <span class="value" id="statPace">--</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="macro-card">
+          <h4>Daily macro split</h4>
+          <div class="macro-bar">
+            <span class="macro-seg-protein" id="barProtein" style="width:0%"></span>
+            <span class="macro-seg-carb" id="barCarb" style="width:0%"></span>
+            <span class="macro-seg-fat" id="barFat" style="width:0%"></span>
+          </div>
+          <div class="macro-legend">
+            <div><i style="background:var(--brand)"></i>Protein <b id="legProtein">--g</b></div>
+            <div><i style="background:var(--aqua)"></i>Carbs <b id="legCarb">--g</b></div>
+            <div><i style="background:var(--aqua-light)"></i>Fat <b id="legFat">--g</b></div>
+          </div>
+        </div>
+
+        <div class="plan-card">
+          <div class="plan-title">
+            <h4 id="planName">—</h4>
+            <span class="plan-tag" id="planTag">MATCHED PROGRAM</span>
+          </div>
+          <p class="desc" id="planDesc">—</p>
+          <div class="plan-meals" id="planMeals"></div>
+        </div>
+
+        <p class="results-disclaimer" id="lowCalWarning" style="display:none;">
+          Your calculated target came out below a safe daily minimum, so we've capped it.
+          Very low calorie intakes should only be done under medical supervision — please
+          talk to a doctor or dietitian before going below this level.
+        </p>
+        <p class="results-disclaimer">
+          These figures are educational estimates from standard formulas (Mifflin-St Jeor),
+          not a medical prescription. BMI in particular doesn't account for muscle mass,
+          frame size, or body composition. Check in with a doctor or registered dietitian
+          before starting any new diet.
+        </p>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="footer-grid">
+      <a href="index.html" class="brand">
+        <span class="brand-mark"></span> 
+        AquaFit
+      </a>
+      <ul class="nav-links" style="gap:1.6rem;">
+        <li><a href="index.html#research">The Research</a></li>
+        <li><a href="index.html#approaches">Approaches</a></li>
+        <li><a href="diet-programs.html">Diet Programs</a></li>
+      </ul>
+    </div>
+    <p class="footer-note">
+      AquaFit is an educational tool, not a medical service. Always consult a qualified
+      professional before making significant changes to your diet.
+    </p>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

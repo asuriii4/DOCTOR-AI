@@ -1,0 +1,643 @@
+
+symptoms,disease,recommendation
+high fever cough shortness of breath,Pneumonia,Please consult a doctor immediately and get a chest X-ray.
+pain swelling muscle soreness injury,Sports Injury / Strain,Rest the affected area apply ice and avoid heavy training.
+headache nausea light sensitivity,Migraine,Rest in a dark room and take prescribed pain medication.
+runny nose sneezing sore throat,Common Cold,Drink plenty of fluids get enough rest and monitor symptoms.
+fever body aches dry cough,Influenza,Rest stay hydrated and contact a doctor if symptoms worsen.
+frequent urination excessive thirst fatigue,Diabetes,Consult a healthcare professional for blood glucose testing.
+chest pain pain in left arm sweating,Possible Heart Attack,Call emergency services immediately.
+itchy eyes sneezing runny nose,Seasonal Allergies,Consider antihistamines and avoid allergens.
+abdominal pain nausea vomiting,Food Poisoning,Stay hydrated and seek medical care if severe.
+burning during urination frequent urination,Urinary Tract Infection,Consult a doctor for evaluation and possible antibiotics.
+rash itching redness,Allergic Reaction,Avoid the suspected allergen and seek medical advice.
+persistent cough weight loss night sweats,Tuberculosis,Seek medical evaluation immediately.
+fatigue pale skin dizziness,Anemia,Consult a doctor for blood tests and iron evaluation.
+joint pain stiffness swelling,Arthritis,Consult a rheumatologist and avoid excessive joint strain.
+ear pain fever hearing loss,Ear Infection,Visit a healthcare provider for examination.
+tooth pain swelling gums,Dental Infection,See a dentist as soon as possible.
+vomiting diarrhea stomach cramps,Gastroenteritis,Drink oral rehydration fluids and rest.
+difficulty swallowing sore throat fever,Strep Throat,Consult a healthcare provider for testing.
+wheezing shortness of breath chest tightness,Asthma Attack,Use prescribed rescue inhaler and seek medical care if symptoms persist.
+high fever stiff neck severe headache,Meningitis,Seek emergency medical attention immediately.
+blurred vision increased thirst weight loss,Diabetes,Arrange prompt medical evaluation.
+yellow skin dark urine fatigue,Hepatitis,Consult a doctor for liver function evaluation.
+back pain numbness leg weakness,Sciatica,Avoid heavy lifting and consult a healthcare provider.
+constipation abdominal bloating,Constipation,Increase fiber water intake and physical activity.
+diarrhea dehydration weakness,Acute Diarrhea,Drink oral rehydration solution and monitor hydration.
+fever chills cough,Bronchitis,Rest drink fluids and consult a doctor if symptoms persist.
+dry cough sore throat hoarseness,Laryngitis,Rest your voice stay hydrated and avoid smoking.
+runny nose facial pain headache,Sinusitis,Use saline nasal spray and consult a doctor if symptoms worsen.
+itchy skin dry patches,Eczema,Use moisturizer regularly and avoid skin irritants.
+red rash fever,Chickenpox,Stay home avoid scratching and consult a healthcare provider.
+fever swollen glands sore throat,Mononucleosis,Rest drink fluids and avoid strenuous activity.
+eye redness itching discharge,Conjunctivitis,Keep eyes clean and consult a healthcare provider.
+blurred vision eye pain,Glaucoma,Seek urgent ophthalmologic evaluation.
+eye pain light sensitivity,Uveitis,Consult an eye specialist immediately.
+hearing loss ringing ears,Tinnitus,Consult an audiologist or ENT specialist.
+ear discharge ear pain,Otitis Media,Consult a doctor for examination and treatment.
+high blood pressure headache dizziness,Hypertension,Schedule a medical evaluation and monitor blood pressure.
+low blood pressure dizziness fainting,Hypotension,Drink fluids and consult a healthcare provider.
+rapid heartbeat chest discomfort,Tachycardia,Seek medical evaluation promptly.
+slow heartbeat fatigue dizziness,Bradycardia,Consult a cardiologist for assessment.
+leg swelling calf pain,Deep Vein Thrombosis,Seek immediate medical evaluation.
+sudden facial droop arm weakness,Stroke,Call emergency services immediately.
+persistent thirst increased hunger,Type 2 Diabetes,Schedule blood glucose testing.
+weight gain cold intolerance,Hypothyroidism,Consult a healthcare provider for thyroid testing.
+weight loss heat intolerance,Hyperthyroidism,Consult an endocrinologist.
+severe abdominal pain right lower abdomen,Appendicitis,Seek emergency medical evaluation.
+upper abdominal pain after meals,Gallstones,Consult a healthcare provider for ultrasound evaluation.
+heartburn acid reflux,GERD,Avoid trigger foods and consult a healthcare provider.
+bloody diarrhea abdominal pain,Ulcerative Colitis,Consult a gastroenterologist.
+abdominal pain weight loss,Crohn Disease,Seek gastroenterology evaluation.
+persistent constipation weight loss,Colon Cancer,Arrange urgent medical assessment.
+frequent loose stools bloating,Irritable Bowel Syndrome,Consult a healthcare provider for management.
+jaundice abdominal pain,Gallbladder Disease,Consult a healthcare provider promptly.
+severe back pain fever,Kidney Infection,Seek prompt medical care.
+blood in urine flank pain,Kidney Stones,Increase hydration and seek medical evaluation.
+joint swelling fever,Lyme Disease,Consult a healthcare provider for testing.
+bullseye rash fever,Lyme Disease,Seek medical evaluation after tick exposure.
+muscle weakness drooping eyelids,Myasthenia Gravis,Consult a neurologist.
+memory loss confusion,Alzheimer Disease,Arrange neurological assessment.
+tremor slow movement stiffness,Parkinson Disease,Consult a neurologist.
+seizure loss of consciousness,Epilepsy,Seek neurological evaluation.
+anxiety excessive worry insomnia,Generalized Anxiety Disorder,Consult a mental health professional.
+persistent sadness loss of interest,Depression,Seek support from a healthcare professional.
+panic chest tightness dizziness,Panic Attack,Practice calming techniques and seek medical advice.
+difficulty sleeping daytime fatigue,Insomnia,Improve sleep hygiene and consult a healthcare provider.
+snoring daytime sleepiness,Sleep Apnea,Arrange a sleep study evaluation.
+fever painful skin rash,Shingles,Consult a healthcare provider promptly.
+mouth ulcers painful swallowing,Oral Thrush,Consult a healthcare provider for evaluation.
+swollen painful toe,Gout,Rest the joint and seek medical advice.
+bone pain frequent fractures,Osteoporosis,Consult a healthcare provider for bone density testing.
+shoulder pain limited movement,Frozen Shoulder,Begin physical therapy after medical evaluation.
+neck pain stiffness,Muscle Strain,Rest apply ice and avoid heavy lifting.
+heel pain morning stiffness,Plantar Fasciitis,Stretch regularly and wear supportive footwear.
+persistent cough coughing blood,Lung Cancer,Seek urgent medical evaluation.
+breast lump nipple discharge,Breast Cancer,Arrange prompt breast examination.
+unexplained weight loss fatigue,Cancer,Consult a healthcare provider for comprehensive evaluation.
+fever chills fatigue body aches,Malaria,Seek immediate medical evaluation and testing especially after travel.
+high fever bleeding bruising,Dengue Fever,Seek urgent medical attention and stay hydrated.
+persistent fever night sweats,HIV Infection,Consult a healthcare provider for HIV testing.
+dry mouth excessive thirst dehydration,Dehydration,Drink oral rehydration fluids and seek care if severe.
+difficulty breathing wheezing cough,COPD,Use prescribed inhalers and seek medical evaluation.
+chronic cough mucus production,COPD,Stop smoking and consult a pulmonologist.
+shortness of breath ankle swelling,Heart Failure,Seek prompt medical evaluation.
+chest pressure nausea sweating,Acute Coronary Syndrome,Call emergency services immediately.
+irregular heartbeat dizziness,Atrial Fibrillation,Consult a cardiologist promptly.
+leg pain while walking,Peripheral Artery Disease,Schedule vascular evaluation.
+cold fingers color changes,Raynaud Syndrome,Keep warm and consult a healthcare provider.
+high cholesterol overweight,Hyperlipidemia,Improve diet exercise regularly and consult a physician.
+severe headache vision changes,Hypertensive Crisis,Seek emergency medical attention immediately.
+persistent cough fever chest pain,Pleurisy,Consult a healthcare provider for evaluation.
+sore throat swollen tonsils,Tonsillitis,Rest drink fluids and consult a doctor if symptoms worsen.
+difficulty breathing swollen throat,Anaphylaxis,Call emergency services immediately.
+itchy rash after medication,Drug Allergy,Stop the suspected medication and seek medical advice.
+swollen lymph nodes fever,Lymphadenitis,Consult a healthcare provider.
+painful swallowing white patches,Tonsil Infection,Seek medical evaluation.
+persistent fever chills low blood pressure,Sepsis,Seek emergency medical attention immediately.
+painful urination fever flank pain,Pyelonephritis,Seek prompt medical treatment.
+frequent headaches blurred vision,Brain Tumor,Arrange urgent neurological evaluation.
+persistent vomiting severe headache,Increased Intracranial Pressure,Seek emergency medical attention.
+confusion slurred speech weakness,Transient Ischemic Attack,Seek emergency medical evaluation.
+tingling numbness hands feet,Peripheral Neuropathy,Consult a neurologist.
+severe facial pain,Trigeminal Neuralgia,Seek neurological assessment.
+painful red eye blurred vision,Acute Glaucoma,Seek emergency ophthalmology care.
+double vision dizziness,Neurological Disorder,Consult a neurologist promptly.
+dry eyes dry mouth,Sjogren Syndrome,Consult a rheumatologist.
+joint pain butterfly rash,Lupus,Seek rheumatology evaluation.
+persistent joint pain morning stiffness,Rheumatoid Arthritis,Consult a rheumatologist.
+fever productive cough chills,Bacterial Pneumonia,Seek prompt medical care.
+dry cough fatigue fever,Viral Pneumonia,Rest hydrate and consult a healthcare provider.
+blood in sputum cough,Lung Disease,Seek urgent pulmonary evaluation.
+persistent hoarseness sore throat,Laryngeal Cancer,Arrange ENT evaluation.
+difficulty swallowing weight loss,Esophageal Cancer,Seek urgent gastroenterology assessment.
+abdominal swelling yellow skin,Cirrhosis,Consult a liver specialist.
+black stools abdominal pain,Peptic Ulcer,Seek medical evaluation immediately.
+severe abdominal pain radiating back,Pancreatitis,Seek emergency medical attention.
+bloody vomiting dizziness,Gastrointestinal Bleeding,Call emergency services immediately.
+painful swollen joints fever,Septic Arthritis,Seek emergency medical care.
+bone pain swelling,Osteomyelitis,Consult an orthopedic specialist.
+muscle weakness fatigue low potassium,Hypokalemia,Seek medical evaluation.
+muscle cramps tingling,Hypocalcemia,Consult a healthcare provider.
+extreme fatigue pale skin shortness of breath,Iron Deficiency Anemia,Consult a doctor for blood tests.
+easy bruising frequent infections,Leukemia,Seek urgent hematology evaluation.
+persistent swollen lymph nodes,Lymphoma,Consult an oncologist.
+persistent fever cough weight loss,Histoplasmosis,Consult an infectious disease specialist.
+itchy skin yellow eyes,Liver Disease,Seek liver function testing.
+difficulty urinating weak stream,Enlarged Prostate,Consult a urologist.
+testicular pain swelling,Testicular Torsion,Seek emergency medical attention immediately.
+persistent cough fever fatigue,Bronchiectasis,Consult a pulmonologist for evaluation and imaging.
+night sweats persistent fever swollen lymph nodes,Hodgkin Lymphoma,Seek prompt oncology evaluation.
+frequent nosebleeds easy bruising,Aplastic Anemia,Consult a hematologist immediately.
+burning chest pain after eating,Acid Reflux,Avoid spicy foods and consult a healthcare provider.
+difficulty breathing after exercise,Exercise Induced Asthma,Use prescribed inhaler before exercise.
+itchy scalp flaky skin,Seborrheic Dermatitis,Use medicated shampoo and consult a dermatologist.
+red painful skin swelling,Cellulitis,Seek medical evaluation for possible antibiotics.
+painful blistering rash,Herpes Zoster,Consult a healthcare provider for antiviral treatment.
+painful urination blood in urine,Bladder Infection,Increase fluid intake and consult a healthcare provider.
+swollen ankles fatigue shortness of breath,Congestive Heart Failure,Seek prompt medical evaluation.
+high fever cough bloody sputum,Severe Pneumonia,Seek emergency medical attention.
+abdominal pain fever loss of appetite,Appendicitis,Go to the emergency department immediately.
+pain upper right abdomen fever,Cholecystitis,Seek prompt medical care.
+persistent vomiting dehydration,Dehydration,Drink oral rehydration solution and seek medical care if severe.
+severe diarrhea abdominal cramps,Foodborne Illness,Stay hydrated and consult a healthcare provider.
+itchy red circular rash,Ringworm,Use antifungal medication and consult a healthcare provider.
+white patches inside mouth,Oral Candidiasis,Consult a healthcare provider for antifungal treatment.
+painful swollen gums bleeding,Gingivitis,Maintain oral hygiene and visit a dentist.
+jaw pain clicking difficulty chewing,Temporomandibular Disorder,Consult a dentist or oral specialist.
+painful swallowing swollen glands,Pharyngitis,Rest drink fluids and seek medical advice if persistent.
+loss of smell nasal congestion,Sinus Infection,Use saline spray and consult a healthcare provider.
+eye redness blurry vision,Corneal Infection,Seek urgent ophthalmology evaluation.
+sudden vision loss eye pain,Retinal Detachment,Seek emergency eye care immediately.
+ear ringing dizziness,Meniere Disease,Consult an ENT specialist.
+ear pain fluid drainage,Eardrum Perforation,Keep the ear dry and seek medical evaluation.
+difficulty concentrating fatigue,Vitamin B12 Deficiency,Consult a healthcare provider for blood tests.
+bone pain fatigue kidney problems,Multiple Myeloma,Seek hematology evaluation.
+persistent dry cough chest discomfort,Sarcoidosis,Consult a pulmonologist.
+joint pain skin rash fever,Reactive Arthritis,Seek rheumatology evaluation.
+painful urination pelvic pain,Prostatitis,Consult a urologist.
+difficulty starting urination frequent urination,Benign Prostatic Hyperplasia,Consult a urologist.
+pelvic pain abnormal bleeding,Uterine Fibroids,Consult a gynecologist.
+lower abdominal pain missed period,Ectopic Pregnancy,Seek emergency medical attention immediately.
+heavy menstrual bleeding fatigue,Menorrhagia,Consult a gynecologist.
+vaginal itching abnormal discharge,Yeast Infection,Consult a healthcare provider for treatment.
+pelvic pain fever vaginal discharge,Pelvic Inflammatory Disease,Seek prompt medical evaluation.
+breast pain redness fever,Mastitis,Consult a healthcare provider especially if breastfeeding.
+persistent cough hoarseness,Throat Cancer,Seek ENT evaluation promptly.
+difficulty swallowing chest pain,Esophageal Disorder,Consult a gastroenterologist.
+swollen painful lymph nodes,Infectious Mononucleosis,Rest stay hydrated and avoid contact sports.
+fever rash joint pain,Zika Virus Infection,Consult a healthcare provider and avoid mosquito exposure.
+high fever severe joint pain,Chikungunya,Seek medical evaluation and supportive care.
+persistent fever abdominal pain,Typhoid Fever,Consult a healthcare provider for testing and treatment.
+muscle stiffness lockjaw,Tetanus,Seek emergency medical care immediately.
+fever swollen salivary glands,Mumps,Rest stay hydrated and consult a healthcare provider.
+rash cough fever red eyes,Measles,Seek medical evaluation and isolate to prevent spread.
+fever rash swollen lymph nodes,Rubella,Consult a healthcare provider and avoid contact with pregnant women.
+chronic fatigue unrefreshing sleep,Chronic Fatigue Syndrome,Consult a healthcare provider for comprehensive evaluation.
+snoring pauses in breathing daytime fatigue,Obstructive Sleep Apnea,Arrange a sleep study evaluation.
+persistent dizziness spinning sensation,Vertigo,Consult a healthcare provider for evaluation.
+unexplained fever weight loss night sweats,Chronic Infection,Seek comprehensive medical evaluation.
+persistent fever chills sweating,Bacterial Infection,Consult a healthcare provider for evaluation and possible antibiotics.
+dry cough chest tightness,COVID-19,Get tested isolate if necessary and monitor symptoms.
+loss of taste loss of smell,COVID-19,Get tested rest and stay hydrated.
+fever sore throat swollen glands,Tonsillitis,Consult a healthcare provider if symptoms persist.
+itchy red bumps insect bite,Insect Bite,Apply a cold compress and monitor for allergic reactions.
+swollen lips difficulty breathing,Severe Allergic Reaction,Call emergency services immediately.
+rash joint pain fever,Scarlet Fever,Seek medical evaluation and treatment.
+persistent cough wheezing,Bronchial Asthma,Use prescribed inhalers and seek medical advice.
+sharp chest pain breathing,Pleuritis,Consult a healthcare provider promptly.
+lower back pain burning urination,Kidney Infection,Seek prompt medical treatment.
+flank pain blood in urine,Kidney Stones,Increase hydration and seek medical evaluation.
+abdominal pain constipation vomiting,Bowel Obstruction,Seek emergency medical attention immediately.
+fever painful urination cloudy urine,Urinary Tract Infection,Consult a healthcare provider for antibiotics.
+leg swelling redness warmth,Deep Vein Thrombosis,Seek emergency medical evaluation.
+persistent headache dizziness blurred vision,Hypertension,Monitor blood pressure and consult a physician.
+sudden severe headache vomiting,Brain Hemorrhage,Call emergency services immediately.
+weakness numbness speech difficulty,Stroke,Call emergency services immediately.
+rapid breathing confusion,Diabetic Ketoacidosis,Seek emergency medical treatment immediately.
+fatigue swelling face,Nephrotic Syndrome,Consult a nephrologist.
+blood in stool abdominal pain,Colorectal Disease,Arrange prompt medical evaluation.
+black stool dizziness,Gastrointestinal Bleeding,Seek emergency medical attention.
+yellow eyes abdominal swelling,Liver Cirrhosis,Consult a liver specialist promptly.
+fever rash headache,West Nile Virus,Seek medical evaluation especially after mosquito exposure.
+joint pain fever mosquito bite,Arboviral Infection,Consult a healthcare provider.
+persistent cough smoking history,Chronic Bronchitis,Stop smoking and seek pulmonary evaluation.
+shortness of breath chest pressure,Angina,Consult a cardiologist promptly.
+painful swollen finger infection,Paronychia,Keep the area clean and seek medical advice.
+painful skin abscess fever,Skin Abscess,Seek medical evaluation for drainage if necessary.
+itchy watery eyes pollen exposure,Allergic Conjunctivitis,Avoid allergens and use antihistamine eye drops.
+eye redness pain discharge,Bacterial Conjunctivitis,Consult a healthcare provider for treatment.
+ear pain itching discharge,Otitis Externa,Keep the ear dry and seek medical evaluation.
+jaw swelling toothache,Dental Abscess,See a dentist as soon as possible.
+bleeding gums loose teeth,Periodontal Disease,Visit a dentist for treatment.
+difficulty chewing facial pain,TMJ Disorder,Consult a dental specialist.
+swollen thyroid neck lump,Thyroid Nodule,Arrange thyroid evaluation.
+fatigue cold skin weight gain,Hypothyroidism,Consult an endocrinologist.
+rapid heartbeat anxiety weight loss,Hyperthyroidism,Seek endocrine evaluation.
+persistent thirst dry mouth,Hyperglycemia,Check blood glucose and consult a healthcare provider.
+shaking sweating hunger,Hypoglycemia,Consume fast-acting carbohydrates and seek medical advice.
+bone pain vitamin deficiency,Rickets,Consult a healthcare provider for evaluation.
+muscle cramps dehydration,Electrolyte Imbalance,Replace fluids and electrolytes and seek medical advice.
+joint redness severe pain,Gout Attack,Rest the joint and consult a healthcare provider.
+hand numbness night pain,Carpal Tunnel Syndrome,Limit repetitive motion and consult a specialist.
+shoulder pain arm weakness,Rotator Cuff Injury,Rest the shoulder and seek orthopedic evaluation.
+knee pain swelling injury,Meniscus Tear,Avoid weight bearing and consult an orthopedic specialist.
+ankle swelling twisting injury,Ankle Sprain,Rest ice compress and elevate the ankle.
+bone deformity pain,Fracture,Immobilize the area and seek emergency medical care.
+neck stiffness fever sensitivity to light,Meningitis,Seek emergency medical attention immediately.
+confusion fever elderly,Urinary Tract Infection,Seek prompt medical evaluation.
+persistent fatigue enlarged spleen,Leukemia,Consult a hematologist urgently.
+swollen lymph nodes weight loss,Lymphoma,Arrange oncology evaluation.
+persistent cough chest pain fever,Lung Infection,Consult a healthcare provider.
+difficulty breathing after allergen exposure,Anaphylaxis,Call emergency services immediately.
+abdominal pain bloating diarrhea,Celiac Disease,Consult a gastroenterologist and avoid gluten until evaluated.
+persistent diarrhea weight loss,Malabsorption Syndrome,Seek gastroenterology evaluation.
+painful swallowing acid reflux,Esophagitis,Consult a healthcare provider.
+itchy skin jaundice,Liver Disease,Seek liver function testing.
+fever chills abdominal tenderness,Diverticulitis,Consult a healthcare provider promptly.
+severe abdominal pain bloody diarrhea,Inflammatory Bowel Disease,Seek urgent gastroenterology evaluation.
+chronic cough shortness of breath,Cystic Fibrosis,Consult a pulmonologist.
+persistent fever swollen joints,Rheumatic Fever,Seek medical evaluation promptly.
+painful red swollen eye,Uveitis,Seek urgent ophthalmology care.
+double vision drooping eyelids,Neurological Disorder,Consult a neurologist.
+persistent dizziness hearing loss,Acoustic Neuroma,Arrange neurological and ENT evaluation.
+sleepiness loud snoring,Obstructive Sleep Apnea,Arrange a sleep study.
+constant worry rapid heartbeat,Anxiety Disorder,Consult a mental health professional.
+sadness fatigue appetite changes,Major Depression,Seek support from a healthcare provider.
+hallucinations confusion,Psychotic Disorder,Seek urgent psychiatric evaluation.
+panic sweating chest pain,Panic Disorder,Practice calming techniques and seek medical advice.
+persistent itching whole body,Systemic Allergy,Consult an allergist.
+rash after sun exposure,Photosensitivity,Protect from sunlight and consult a dermatologist.
+hair loss fatigue,Hormonal Disorder,Consult a healthcare provider for hormone evaluation.
+persistent fever unexplained weight loss,Chronic Disease,Arrange comprehensive medical evaluation.
+symptoms,disease,recommendation
+high fever cough shortness of breath,Pneumonia,Please consult a doctor immediately and get a chest X-ray.
+pain swelling muscle soreness injury,Sports Injury / Strain,Rest the affected area apply ice and avoid heavy training.
+headache nausea light sensitivity,Migraine,Rest in a dark room and take prescribed pain medication.
+runny nose sneezing sore throat,Common Cold,Drink plenty of fluids get enough rest and monitor symptoms.
+fever body aches dry cough,Influenza,Rest stay hydrated and contact a doctor if symptoms worsen.
+frequent urination excessive thirst fatigue,Diabetes,Consult a healthcare professional for blood glucose testing.
+chest pain pain in left arm sweating,Possible Heart Attack,Call emergency services immediately.
+itchy eyes sneezing runny nose,Seasonal Allergies,Consider antihistamines and avoid allergens.
+abdominal pain nausea vomiting,Food Poisoning,Stay hydrated and seek medical care if severe.
+burning during urination frequent urination,Urinary Tract Infection,Consult a doctor for evaluation and possible antibiotics.
+rash itching redness,Allergic Reaction,Avoid the suspected allergen and seek medical advice.
+persistent cough weight loss night sweats,Tuberculosis,Seek medical evaluation immediately.
+fatigue pale skin dizziness,Anemia,Consult a doctor for blood tests and iron evaluation.
+joint pain stiffness swelling,Arthritis,Consult a rheumatologist and avoid excessive joint strain.
+ear pain fever hearing loss,Ear Infection,Visit a healthcare provider for examination.
+tooth pain swelling gums,Dental Infection,See a dentist as soon as possible.
+vomiting diarrhea stomach cramps,Gastroenteritis,Drink oral rehydration fluids and rest.
+difficulty swallowing sore throat fever,Strep Throat,Consult a healthcare provider for testing.
+wheezing shortness of breath chest tightness,Asthma Attack,Use prescribed rescue inhaler and seek medical care if symptoms persist.
+high fever stiff neck severe headache,Meningitis,Seek emergency medical attention immediately.
+blurred vision increased thirst weight loss,Diabetes,Arrange prompt medical evaluation.
+yellow skin dark urine fatigue,Hepatitis,Consult a doctor for liver function evaluation.
+back pain numbness leg weakness,Sciatica,Avoid heavy lifting and consult a healthcare provider.
+constipation abdominal bloating,Constipation,Increase fiber water intake and physical activity.
+diarrhea dehydration weakness,Acute Diarrhea,Drink oral rehydration solution and monitor hydration.
+fever chills cough,Bronchitis,Rest drink fluids and consult a doctor if symptoms persist.
+dry cough sore throat hoarseness,Laryngitis,Rest your voice stay hydrated and avoid smoking.
+runny nose facial pain headache,Sinusitis,Use saline nasal spray and consult a doctor if symptoms worsen.
+itchy skin dry patches,Eczema,Use moisturizer regularly and avoid skin irritants.
+red rash fever,Chickenpox,Stay home avoid scratching and consult a healthcare provider.
+fever swollen glands sore throat,Mononucleosis,Rest drink fluids and avoid strenuous activity.
+eye redness itching discharge,Conjunctivitis,Keep eyes clean and consult a healthcare provider.
+blurred vision eye pain,Glaucoma,Seek urgent ophthalmologic evaluation.
+eye pain light sensitivity,Uveitis,Consult an eye specialist immediately.
+hearing loss ringing ears,Tinnitus,Consult an audiologist or ENT specialist.
+ear discharge ear pain,Otitis Media,Consult a doctor for examination and treatment.
+high blood pressure headache dizziness,Hypertension,Schedule a medical evaluation and monitor blood pressure.
+low blood pressure dizziness fainting,Hypotension,Drink fluids and consult a healthcare provider.
+rapid heartbeat chest discomfort,Tachycardia,Seek medical evaluation promptly.
+slow heartbeat fatigue dizziness,Bradycardia,Consult a cardiologist for assessment.
+leg swelling calf pain,Deep Vein Thrombosis,Seek immediate medical evaluation.
+sudden facial droop arm weakness,Stroke,Call emergency services immediately.
+persistent thirst increased hunger,Type 2 Diabetes,Schedule blood glucose testing.
+weight gain cold intolerance,Hypothyroidism,Consult a healthcare provider for thyroid testing.
+weight loss heat intolerance,Hyperthyroidism,Consult an endocrinologist.
+severe abdominal pain right lower abdomen,Appendicitis,Seek emergency medical evaluation.
+upper abdominal pain after meals,Gallstones,Consult a healthcare provider for ultrasound evaluation.
+heartburn acid reflux,GERD,Avoid trigger foods and consult a healthcare provider.
+bloody diarrhea abdominal pain,Ulcerative Colitis,Consult a gastroenterologist.
+abdominal pain weight loss,Crohn Disease,Seek gastroenterology evaluation.
+persistent constipation weight loss,Colon Cancer,Arrange urgent medical assessment.
+frequent loose stools bloating,Irritable Bowel Syndrome,Consult a healthcare provider for management.
+jaundice abdominal pain,Gallbladder Disease,Consult a healthcare provider promptly.
+severe back pain fever,Kidney Infection,Seek prompt medical care.
+blood in urine flank pain,Kidney Stones,Increase hydration and seek medical evaluation.
+joint swelling fever,Lyme Disease,Consult a healthcare provider for testing.
+bullseye rash fever,Lyme Disease,Seek medical evaluation after tick exposure.
+muscle weakness drooping eyelids,Myasthenia Gravis,Consult a neurologist.
+memory loss confusion,Alzheimer Disease,Arrange neurological assessment.
+tremor slow movement stiffness,Parkinson Disease,Consult a neurologist.
+seizure loss of consciousness,Epilepsy,Seek neurological evaluation.
+anxiety excessive worry insomnia,Generalized Anxiety Disorder,Consult a mental health professional.
+persistent sadness loss of interest,Depression,Seek support from a healthcare professional.
+panic chest tightness dizziness,Panic Attack,Practice calming techniques and seek medical advice.
+difficulty sleeping daytime fatigue,Insomnia,Improve sleep hygiene and consult a healthcare provider.
+snoring daytime sleepiness,Sleep Apnea,Arrange a sleep study evaluation.
+fever painful skin rash,Shingles,Consult a healthcare provider promptly.
+mouth ulcers painful swallowing,Oral Thrush,Consult a healthcare provider for evaluation.
+swollen painful toe,Gout,Rest the joint and seek medical advice.
+bone pain frequent fractures,Osteoporosis,Consult a healthcare provider for bone density testing.
+shoulder pain limited movement,Frozen Shoulder,Begin physical therapy after medical evaluation.
+neck pain stiffness,Muscle Strain,Rest apply ice and avoid heavy lifting.
+heel pain morning stiffness,Plantar Fasciitis,Stretch regularly and wear supportive footwear.
+persistent cough coughing blood,Lung Cancer,Seek urgent medical evaluation.
+breast lump nipple discharge,Breast Cancer,Arrange prompt breast examination.
+unexplained weight loss fatigue,Cancer,Consult a healthcare provider for comprehensive evaluation.
+fever chills fatigue body aches,Malaria,Seek immediate medical evaluation and testing especially after travel.
+high fever bleeding bruising,Dengue Fever,Seek urgent medical attention and stay hydrated.
+persistent fever night sweats,HIV Infection,Consult a healthcare provider for HIV testing.
+dry mouth excessive thirst dehydration,Dehydration,Drink oral rehydration fluids and seek care if severe.
+difficulty breathing wheezing cough,COPD,Use prescribed inhalers and seek medical evaluation.
+chronic cough mucus production,COPD,Stop smoking and consult a pulmonologist.
+shortness of breath ankle swelling,Heart Failure,Seek prompt medical evaluation.
+chest pressure nausea sweating,Acute Coronary Syndrome,Call emergency services immediately.
+irregular heartbeat dizziness,Atrial Fibrillation,Consult a cardiologist promptly.
+leg pain while walking,Peripheral Artery Disease,Schedule vascular evaluation.
+cold fingers color changes,Raynaud Syndrome,Keep warm and consult a healthcare provider.
+high cholesterol overweight,Hyperlipidemia,Improve diet exercise regularly and consult a physician.
+severe headache vision changes,Hypertensive Crisis,Seek emergency medical attention immediately.
+persistent cough fever chest pain,Pleurisy,Consult a healthcare provider for evaluation.
+sore throat swollen tonsils,Tonsillitis,Rest drink fluids and consult a doctor if symptoms worsen.
+difficulty breathing swollen throat,Anaphylaxis,Call emergency services immediately.
+itchy rash after medication,Drug Allergy,Stop the suspected medication and seek medical advice.
+swollen lymph nodes fever,Lymphadenitis,Consult a healthcare provider.
+painful swallowing white patches,Tonsil Infection,Seek medical evaluation.
+persistent fever chills low blood pressure,Sepsis,Seek emergency medical attention immediately.
+painful urination fever flank pain,Pyelonephritis,Seek prompt medical treatment.
+frequent headaches blurred vision,Brain Tumor,Arrange urgent neurological evaluation.
+persistent vomiting severe headache,Increased Intracranial Pressure,Seek emergency medical attention.
+confusion slurred speech weakness,Transient Ischemic Attack,Seek emergency medical evaluation.
+tingling numbness hands feet,Peripheral Neuropathy,Consult a neurologist.
+severe facial pain,Trigeminal Neuralgia,Seek neurological assessment.
+painful red eye blurred vision,Acute Glaucoma,Seek emergency ophthalmology care.
+double vision dizziness,Neurological Disorder,Consult a neurologist promptly.
+dry eyes dry mouth,Sjogren Syndrome,Consult a rheumatologist.
+joint pain butterfly rash,Lupus,Seek rheumatology evaluation.
+persistent joint pain morning stiffness,Rheumatoid Arthritis,Consult a rheumatologist.
+fever productive cough chills,Bacterial Pneumonia,Seek prompt medical care.
+dry cough fatigue fever,Viral Pneumonia,Rest hydrate and consult a healthcare provider.
+blood in sputum cough,Lung Disease,Seek urgent pulmonary evaluation.
+persistent hoarseness sore throat,Laryngeal Cancer,Arrange ENT evaluation.
+difficulty swallowing weight loss,Esophageal Cancer,Seek urgent gastroenterology assessment.
+abdominal swelling yellow skin,Cirrhosis,Consult a liver specialist.
+black stools abdominal pain,Peptic Ulcer,Seek medical evaluation immediately.
+severe abdominal pain radiating back,Pancreatitis,Seek emergency medical attention.
+bloody vomiting dizziness,Gastrointestinal Bleeding,Call emergency services immediately.
+painful swollen joints fever,Septic Arthritis,Seek emergency medical care.
+bone pain swelling,Osteomyelitis,Consult an orthopedic specialist.
+muscle weakness fatigue low potassium,Hypokalemia,Seek medical evaluation.
+muscle cramps tingling,Hypocalcemia,Consult a healthcare provider.
+extreme fatigue pale skin shortness of breath,Iron Deficiency Anemia,Consult a doctor for blood tests.
+easy bruising frequent infections,Leukemia,Seek urgent hematology evaluation.
+persistent swollen lymph nodes,Lymphoma,Consult an oncologist.
+persistent fever cough weight loss,Histoplasmosis,Consult an infectious disease specialist.
+itchy skin yellow eyes,Liver Disease,Seek liver function testing.
+difficulty urinating weak stream,Enlarged Prostate,Consult a urologist.
+testicular pain swelling,Testicular Torsion,Seek emergency medical attention immediately.
+persistent cough fever fatigue,Bronchiectasis,Consult a pulmonologist for evaluation and imaging.
+night sweats persistent fever swollen lymph nodes,Hodgkin Lymphoma,Seek prompt oncology evaluation.
+frequent nosebleeds easy bruising,Aplastic Anemia,Consult a hematologist immediately.
+burning chest pain after eating,Acid Reflux,Avoid spicy foods and consult a healthcare provider.
+difficulty breathing after exercise,Exercise Induced Asthma,Use prescribed inhaler before exercise.
+itchy scalp flaky skin,Seborrheic Dermatitis,Use medicated shampoo and consult a dermatologist.
+red painful skin swelling,Cellulitis,Seek medical evaluation for possible antibiotics.
+painful blistering rash,Herpes Zoster,Consult a healthcare provider for antiviral treatment.
+painful urination blood in urine,Bladder Infection,Increase fluid intake and consult a healthcare provider.
+swollen ankles fatigue shortness of breath,Congestive Heart Failure,Seek prompt medical evaluation.
+high fever cough bloody sputum,Severe Pneumonia,Seek emergency medical attention.
+abdominal pain fever loss of appetite,Appendicitis,Go to the emergency department immediately.
+pain upper right abdomen fever,Cholecystitis,Seek prompt medical care.
+persistent vomiting dehydration,Dehydration,Drink oral rehydration solution and seek medical care if severe.
+severe diarrhea abdominal cramps,Foodborne Illness,Stay hydrated and consult a healthcare provider.
+itchy red circular rash,Ringworm,Use antifungal medication and consult a healthcare provider.
+white patches inside mouth,Oral Candidiasis,Consult a healthcare provider for antifungal treatment.
+painful swollen gums bleeding,Gingivitis,Maintain oral hygiene and visit a dentist.
+jaw pain clicking difficulty chewing,Temporomandibular Disorder,Consult a dentist or oral specialist.
+painful swallowing swollen glands,Pharyngitis,Rest drink fluids and seek medical advice if persistent.
+loss of smell nasal congestion,Sinus Infection,Use saline spray and consult a healthcare provider.
+eye redness blurry vision,Corneal Infection,Seek urgent ophthalmology evaluation.
+sudden vision loss eye pain,Retinal Detachment,Seek emergency eye care immediately.
+ear ringing dizziness,Meniere Disease,Consult an ENT specialist.
+ear pain fluid drainage,Eardrum Perforation,Keep the ear dry and seek medical evaluation.
+difficulty concentrating fatigue,Vitamin B12 Deficiency,Consult a healthcare provider for blood tests.
+bone pain fatigue kidney problems,Multiple Myeloma,Seek hematology evaluation.
+persistent dry cough chest discomfort,Sarcoidosis,Consult a pulmonologist.
+joint pain skin rash fever,Reactive Arthritis,Seek rheumatology evaluation.
+painful urination pelvic pain,Prostatitis,Consult a urologist.
+difficulty starting urination frequent urination,Benign Prostatic Hyperplasia,Consult a urologist.
+pelvic pain abnormal bleeding,Uterine Fibroids,Consult a gynecologist.
+lower abdominal pain missed period,Ectopic Pregnancy,Seek emergency medical attention immediately.
+heavy menstrual bleeding fatigue,Menorrhagia,Consult a gynecologist.
+vaginal itching abnormal discharge,Yeast Infection,Consult a healthcare provider for treatment.
+pelvic pain fever vaginal discharge,Pelvic Inflammatory Disease,Seek prompt medical evaluation.
+breast pain redness fever,Mastitis,Consult a healthcare provider especially if breastfeeding.
+persistent cough hoarseness,Throat Cancer,Seek ENT evaluation promptly.
+difficulty swallowing chest pain,Esophageal Disorder,Consult a gastroenterologist.
+swollen painful lymph nodes,Infectious Mononucleosis,Rest stay hydrated and avoid contact sports.
+fever rash joint pain,Zika Virus Infection,Consult a healthcare provider and avoid mosquito exposure.
+high fever severe joint pain,Chikungunya,Seek medical evaluation and supportive care.
+persistent fever abdominal pain,Typhoid Fever,Consult a healthcare provider for testing and treatment.
+muscle stiffness lockjaw,Tetanus,Seek emergency medical care immediately.
+fever swollen salivary glands,Mumps,Rest stay hydrated and consult a healthcare provider.
+rash cough fever red eyes,Measles,Seek medical evaluation and isolate to prevent spread.
+fever rash swollen lymph nodes,Rubella,Consult a healthcare provider and avoid contact with pregnant women.
+chronic fatigue unrefreshing sleep,Chronic Fatigue Syndrome,Consult a healthcare provider for comprehensive evaluation.
+snoring pauses in breathing daytime fatigue,Obstructive Sleep Apnea,Arrange a sleep study evaluation.
+persistent dizziness spinning sensation,Vertigo,Consult a healthcare provider for evaluation.
+unexplained fever weight loss night sweats,Chronic Infection,Seek comprehensive medical evaluation.
+persistent fever chills sweating,Bacterial Infection,Consult a healthcare provider for evaluation and possible antibiotics.
+dry cough chest tightness,COVID-19,Get tested isolate if necessary and monitor symptoms.
+loss of taste loss of smell,COVID-19,Get tested rest and stay hydrated.
+fever sore throat swollen glands,Tonsillitis,Consult a healthcare provider if symptoms persist.
+itchy red bumps insect bite,Insect Bite,Apply a cold compress and monitor for allergic reactions.
+swollen lips difficulty breathing,Severe Allergic Reaction,Call emergency services immediately.
+rash joint pain fever,Scarlet Fever,Seek medical evaluation and treatment.
+persistent cough wheezing,Bronchial Asthma,Use prescribed inhalers and seek medical advice.
+sharp chest pain breathing,Pleuritis,Consult a healthcare provider promptly.
+lower back pain burning urination,Kidney Infection,Seek prompt medical treatment.
+flank pain blood in urine,Kidney Stones,Increase hydration and seek medical evaluation.
+abdominal pain constipation vomiting,Bowel Obstruction,Seek emergency medical attention immediately.
+fever painful urination cloudy urine,Urinary Tract Infection,Consult a healthcare provider for antibiotics.
+leg swelling redness warmth,Deep Vein Thrombosis,Seek emergency medical evaluation.
+persistent headache dizziness blurred vision,Hypertension,Monitor blood pressure and consult a physician.
+sudden severe headache vomiting,Brain Hemorrhage,Call emergency services immediately.
+weakness numbness speech difficulty,Stroke,Call emergency services immediately.
+rapid breathing confusion,Diabetic Ketoacidosis,Seek emergency medical treatment immediately.
+fatigue swelling face,Nephrotic Syndrome,Consult a nephrologist.
+blood in stool abdominal pain,Colorectal Disease,Arrange prompt medical evaluation.
+black stool dizziness,Gastrointestinal Bleeding,Seek emergency medical attention.
+yellow eyes abdominal swelling,Liver Cirrhosis,Consult a liver specialist promptly.
+fever rash headache,West Nile Virus,Seek medical evaluation especially after mosquito exposure.
+joint pain fever mosquito bite,Arboviral Infection,Consult a healthcare provider.
+persistent cough smoking history,Chronic Bronchitis,Stop smoking and seek pulmonary evaluation.
+shortness of breath chest pressure,Angina,Consult a cardiologist promptly.
+painful swollen finger infection,Paronychia,Keep the area clean and seek medical advice.
+painful skin abscess fever,Skin Abscess,Seek medical evaluation for drainage if necessary.
+itchy watery eyes pollen exposure,Allergic Conjunctivitis,Avoid allergens and use antihistamine eye drops.
+eye redness pain discharge,Bacterial Conjunctivitis,Consult a healthcare provider for treatment.
+ear pain itching discharge,Otitis Externa,Keep the ear dry and seek medical evaluation.
+jaw swelling toothache,Dental Abscess,See a dentist as soon as possible.
+bleeding gums loose teeth,Periodontal Disease,Visit a dentist for treatment.
+difficulty chewing facial pain,TMJ Disorder,Consult a dental specialist.
+swollen thyroid neck lump,Thyroid Nodule,Arrange thyroid evaluation.
+fatigue cold skin weight gain,Hypothyroidism,Consult an endocrinologist.
+rapid heartbeat anxiety weight loss,Hyperthyroidism,Seek endocrine evaluation.
+persistent thirst dry mouth,Hyperglycemia,Check blood glucose and consult a healthcare provider.
+shaking sweating hunger,Hypoglycemia,Consume fast-acting carbohydrates and seek medical advice.
+bone pain vitamin deficiency,Rickets,Consult a healthcare provider for evaluation.
+muscle cramps dehydration,Electrolyte Imbalance,Replace fluids and electrolytes and seek medical advice.
+joint redness severe pain,Gout Attack,Rest the joint and consult a healthcare provider.
+hand numbness night pain,Carpal Tunnel Syndrome,Limit repetitive motion and consult a specialist.
+shoulder pain arm weakness,Rotator Cuff Injury,Rest the shoulder and seek orthopedic evaluation.
+knee pain swelling injury,Meniscus Tear,Avoid weight bearing and consult an orthopedic specialist.
+ankle swelling twisting injury,Ankle Sprain,Rest ice compress and elevate the ankle.
+bone deformity pain,Fracture,Immobilize the area and seek emergency medical care.
+neck stiffness fever sensitivity to light,Meningitis,Seek emergency medical attention immediately.
+confusion fever elderly,Urinary Tract Infection,Seek prompt medical evaluation.
+persistent fatigue enlarged spleen,Leukemia,Consult a hematologist urgently.
+swollen lymph nodes weight loss,Lymphoma,Arrange oncology evaluation.
+persistent cough chest pain fever,Lung Infection,Consult a healthcare provider.
+difficulty breathing after allergen exposure,Anaphylaxis,Call emergency services immediately.
+abdominal pain bloating diarrhea,Celiac Disease,Consult a gastroenterologist and avoid gluten until evaluated.
+persistent diarrhea weight loss,Malabsorption Syndrome,Seek gastroenterology evaluation.
+painful swallowing acid reflux,Esophagitis,Consult a healthcare provider.
+itchy skin jaundice,Liver Disease,Seek liver function testing.
+fever chills abdominal tenderness,Diverticulitis,Consult a healthcare provider promptly.
+severe abdominal pain bloody diarrhea,Inflammatory Bowel Disease,Seek urgent gastroenterology evaluation.
+chronic cough shortness of breath,Cystic Fibrosis,Consult a pulmonologist.
+persistent fever swollen joints,Rheumatic Fever,Seek medical evaluation promptly.
+painful red swollen eye,Uveitis,Seek urgent ophthalmology care.
+double vision drooping eyelids,Neurological Disorder,Consult a neurologist.
+persistent dizziness hearing loss,Acoustic Neuroma,Arrange neurological and ENT evaluation.
+sleepiness loud snoring,Obstructive Sleep Apnea,Arrange a sleep study.
+constant worry rapid heartbeat,Anxiety Disorder,Consult a mental health professional.
+sadness fatigue appetite changes,Major Depression,Seek support from a healthcare provider.
+hallucinations confusion,Psychotic Disorder,Seek urgent psychiatric evaluation.
+panic sweating chest pain,Panic Disorder,Practice calming techniques and seek medical advice.
+persistent itching whole body,Systemic Allergy,Consult an allergist.
+rash after sun exposure,Photosensitivity,Protect from sunlight and consult a dermatologist.
+hair loss fatigue,Hormonal Disorder,Consult a healthcare provider for hormone evaluation.
+persistent fever unexplained weight loss,Chronic Disease,Arrange comprehensive medical evaluation.
+morning stiffness fatigue low grade fever,Fibromyalgia,Consult a rheumatologist for pain management options.
+excessive daytime sleep muscle weakness,Narcolepsy,Consult a sleep specialist for evaluation.
+sudden weakness one side of body confusion,Ischemic Stroke,Call emergency services immediately.
+persistent nosebleed high blood pressure,Epistaxis,Pinch the nose lean forward and seek care if bleeding persists.
+skin yellowing itching dark urine,Obstructive Jaundice,Consult a healthcare provider for liver and bile duct evaluation.
+painful mouth sores fever,Herpangina,Rest hydrate and consult a healthcare provider.
+cold sore lip tingling,Oral Herpes,Apply antiviral cream and avoid close contact during outbreaks.
+genital sores itching,Genital Herpes,Consult a healthcare provider for antiviral treatment.
+painless genital sore swollen lymph nodes,Syphilis,Seek prompt testing and treatment from a healthcare provider.
+burning urination discharge,Gonorrhea,Consult a healthcare provider for testing and treatment.
+pelvic pain unusual discharge,Chlamydia,Seek testing and treatment from a healthcare provider.
+persistent cough fever weight loss night sweats,Pulmonary Tuberculosis,Seek medical evaluation and isolation guidance immediately.
+skin darkening fatigue weight loss,Addison Disease,Consult an endocrinologist for hormone evaluation.
+rounded face weight gain purple stretch marks,Cushing Syndrome,Consult an endocrinologist for hormone testing.
+excessive sweating heat intolerance tremor,Thyrotoxicosis,Seek endocrine evaluation promptly.
+puffy face fatigue constipation,Myxedema,Consult a healthcare provider for thyroid testing.
+swollen painful calf after long travel,Pulmonary Embolism Risk,Seek emergency evaluation if breathlessness or chest pain develops.
+sudden chest pain difficulty breathing one sided,Pneumothorax,Seek emergency medical attention immediately.
+persistent wheeze in infant difficulty feeding,Bronchiolitis,Seek pediatric evaluation promptly.
+high fever rash in infant irritability,Roseola,Monitor temperature and consult a pediatrician.
+barking cough stridor fever in child,Croup,Use cool mist and seek pediatric care if breathing worsens.
+sudden severe abdominal pain in infant drawing knees up,Intussusception,Seek emergency pediatric evaluation immediately.
+persistent vomiting projectile in infant,Pyloric Stenosis,Seek pediatric medical evaluation promptly.
+delayed growth poor feeding in infant,Failure to Thrive,Consult a pediatrician for evaluation.
+red swollen painful eye after injury,Orbital Cellulitis,Seek emergency ophthalmology care immediately.
+sudden hearing loss in one ear,Sudden Sensorineural Hearing Loss,Seek urgent ENT evaluation.
+persistent nasal obstruction one sided nosebleeds,Nasal Tumor,Arrange ENT evaluation promptly.
+snoring gasping for air at night obesity,Obesity Related Sleep Apnea,Arrange a sleep study and weight management plan.
+painful swollen breast fever after childbirth,Postpartum Mastitis,Consult a healthcare provider promptly.
+heavy bleeding after childbirth dizziness,Postpartum Hemorrhage,Seek emergency medical attention immediately.
+persistent sadness after childbirth difficulty bonding,Postpartum Depression,Seek support from a healthcare professional.
+severe morning sickness dehydration in pregnancy,Hyperemesis Gravidarum,Seek prompt medical evaluation and rehydration.
+high blood pressure swelling protein in urine during pregnancy,Preeclampsia,Seek emergency obstetric evaluation immediately.
+vaginal bleeding abdominal cramping in early pregnancy,Threatened Miscarriage,Seek prompt obstetric evaluation.
+painful red streak up the arm from a wound,Lymphangitis,Seek prompt medical evaluation for possible antibiotics.
+deep wound dirty exposure muscle spasm,Tetanus Risk,Clean the wound and seek prompt medical care and vaccination.
+animal bite wound fever,Rabies Exposure Risk,Wash the wound thoroughly and seek immediate medical care.
+tick attached to skin rash,Tick Bite,Remove the tick carefully and monitor for rash or fever.
+bee sting swelling pain,Insect Sting,Remove the stinger apply cold compress and monitor for allergic reaction.
+jellyfish sting burning pain,Marine Sting,Rinse with vinegar or hot water and seek care if symptoms worsen.
+sunburn peeling skin pain,Sunburn,Apply cool compresses moisturize and avoid further sun exposure.
+frostbite numbness skin discoloration,Frostbite,Rewarm gradually and seek medical evaluation promptly.
+heat exhaustion dizziness heavy sweating,Heat Exhaustion,Move to a cool place hydrate and seek care if symptoms persist.
+confusion hot dry skin high body temperature,Heat Stroke,Call emergency services immediately and cool the body rapidly.
+shivering confusion low body temperature,Hypothermia,Seek emergency medical attention and warm the body gradually.
+persistent hiccups chest discomfort,Persistent Hiccups,Consult a healthcare provider if hiccups last more than 48 hours.
+excessive gas bloating after dairy,Lactose Intolerance,Avoid dairy products and consult a healthcare provider if symptoms persist.
+bloating diarrhea after gluten,Gluten Sensitivity,Avoid gluten containing foods and consult a healthcare provider.
+persistent itching no rash elderly,Pruritus of Aging,Use moisturizer and consult a healthcare provider if itching persists.
+brittle nails hair thinning fatigue,Nutritional Deficiency,Consult a healthcare provider for nutritional evaluation.
+mout corner cracking soreness,Angular Cheilitis,Keep the area dry and consult a healthcare provider if persistent.
+white lacy patches inside cheek,Oral Lichen Planus,Consult a healthcare provider or dentist for evaluation.
+persistent bad breath gum disease,Halitosis,Improve oral hygiene and consult a dentist.
+snoring nasal obstruction crooked nose,Deviated Septum,Consult an ENT specialist for evaluation.
+facial pain pressure worse leaning forward,Chronic Sinusitis,Consult an ENT specialist for evaluation and treatment.
+persistent throat clearing post nasal drip,Postnasal Drip Syndrome,Use saline rinses and consult a healthcare provider if persistent.
+voice changes long term smoking,Vocal Cord Lesion,Seek ENT evaluation promptly.
+painful swallowing feeling of food stuck,Esophageal Stricture,Consult a gastroenterologist for evaluation.
+recurrent heartburn nighttime cough,Laryngopharyngeal Reflux,Avoid late meals and consult a healthcare provider.
+persistent abdominal pain relieved by eating,Duodenal Ulcer,Consult a gastroenterologist for evaluation.
+abdominal pain worse after eating fatty food,Biliary Colic,Consult a healthcare provider for ultrasound evaluation.
+chronic diarrhea greasy stools weight loss,Malabsorption,Seek gastroenterology evaluation for further testing.
+abdominal distension early fullness weight loss,Ovarian Mass,Arrange prompt gynecological evaluation.
+irregular periods excess facial hair weight gain,Polycystic Ovary Syndrome,Consult a gynecologist for hormone evaluation.
+absent periods excessive exercise low weight,Amenorrhea,Consult a healthcare provider for hormonal evaluation.
+painful intercourse pelvic pain,Endometriosis,Consult a gynecologist for evaluation.
+testicular lump painless swelling,Testicular Mass,Seek prompt urological evaluation.
+groin swelling bulge with straining,Inguinal Hernia,Consult a healthcare provider for surgical evaluation.
+persistent groin pain after exercise,Groin Strain,Rest apply ice and avoid strenuous activity.
+sudden severe eye pain halos around lights,Angle Closure Glaucoma,Seek emergency ophthalmology care immediately.
+gradual vision loss night blindness,Retinitis Pigmentosa,Consult an ophthalmologist for evaluation.
+central vision loss straight lines appear wavy,Macular Degeneration,Seek prompt ophthalmology evaluation.
+eye floaters flashes of light,Vitreous Detachment,Seek prompt ophthalmology evaluation.
+crossed eyes double vision in child,Strabismus,Consult a pediatric ophthalmologist.
+drooping eyelid one side,Ptosis,Consult an ophthalmologist or neurologist for evaluation.
+persistent dry cough after starting new medication,Drug Induced Cough,Consult a healthcare provider about adjusting medication.
+swelling of face lips after new medication,Angioedema,Seek emergency medical attention if breathing is affected.
+muscle pain fever after starting statin,Statin Induced Myopathy,Consult a healthcare provider about medication review.
+easy bleeding bruising on blood thinners,Anticoagulant Complication,Seek prompt medical evaluation.
+confusion drowsiness after opioid use,Opioid Overdose Risk,Seek emergency medical attention immediately.
+tremor sweating anxiety after stopping alcohol,Alcohol Withdrawal,Seek medical supervision especially if symptoms are severe.
+persistent cough shortness of breath in smoker,Smoker Lung Disease,Consult a pulmonologist for evaluation and stop smoking.
+progressive muscle weakness difficulty speaking,Amyotrophic Lateral Sclerosis,Seek neurological evaluation promptly.
+sudden severe back pain after lifting,Herniated Disc,Rest avoid heavy lifting and consult a healthcare provider.
+curved spine uneven shoulders in teen,Scoliosis,Consult an orthopedic specialist for evaluation.
+bowed legs bone pain in child,Growth Plate Disorder,Consult a pediatric orthopedic specialist.
+limping hip pain in child,Perthes Disease,Consult a pediatric orthopedic specialist promptly.
+hip pain limited motion in older adult,Hip Osteoarthritis,Consult an orthopedic specialist for evaluation.
+knee pain swelling stiffness in older adult,Knee Osteoarthritis,Use pain management and consult an orthopedic specialist.
+finger joint swelling deformity,Osteoarthritis of the Hand,Consult a rheumatologist for evaluation.
+muscle wasting weakness in limbs,Muscular Dystrophy,Seek neurological evaluation for genetic testing.
+recurrent fractures with minor trauma,Bone Fragility Disorder,Consult a healthcare provider for bone density evaluation.
+persistent fatigue muscle pain widespread,Chronic Pain Syndrome,Consult a healthcare provider for comprehensive pain management.
+skin tightening thickening fingers,Scleroderma,Consult a rheumatologist for evaluation.
+muscle weakness skin rash on eyelids,Dermatomyositis,Seek rheumatology evaluation promptly.
+recurrent mouth genital ulcers eye inflammation,Behcet Disease,Consult a rheumatologist for evaluation.
+persistent low grade fever joint pain rash in child,Juvenile Idiopathic Arthritis,Consult a pediatric rheumatologist.
+red swollen finger after minor injury,Whitlow,Seek medical evaluation for possible drainage.
+red streak swollen lymph nodes after cat scratch,Cat Scratch Disease,Consult a healthcare provider for evaluation.
+persistent cough exposure to birds,Psittacosis,Seek medical evaluation and mention bird exposure.
+fever muscle pain exposure to farm animals,Brucellosis,Seek medical evaluation and mention animal exposure.
+fever jaundice exposure to contaminated water,Leptospirosis,Seek prompt medical evaluation.
+severe watery diarrhea recent travel,Cholera,Seek urgent rehydration and medical care.
+persistent diarrhea recent travel abdominal cramps,Traveler Diarrhea,Stay hydrated and consult a healthcare provider if severe.
+itchy rash between fingers worse at night,Scabies,Consult a healthcare provider for topical treatment.
+itchy scalp visible nits,Head Lice,Use medicated shampoo and treat close contacts.
+painless growth on skin slow growing,Skin Lesion,Consult a dermatologist for evaluation.
+changing mole irregular borders,Possible Melanoma,Seek urgent dermatology evaluation.
+persistent scaly patch on sun exposed skin,Actinic Keratosis,Consult a dermatologist for evaluation.
+pearly bump on skin that bleeds easily,Basal Cell Carcinoma,Seek dermatology evaluation for biopsy.
+recurring hives swelling,Chronic Urticaria,Consult an allergist for evaluation.
+food related swelling of lips tongue,Food Allergy,Avoid the suspected food and seek medical advice.
+severe reaction after eating shellfish,Shellfish Allergy,Seek emergency care if breathing difficulty occurs.
+peanut exposure swelling difficulty breathing,Peanut Allergy,Use epinephrine if prescribed and call emergency services.
+persistent cough post viral illness,Post Viral Cough,Rest and consult a healthcare provider if cough persists beyond a few weeks.
+fatigue brain fog after recovering from infection,Post Viral Syndrome,Consult a healthcare provider for comprehensive evaluation.
+loss of appetite weight loss in elderly,Geriatric Failure to Thrive,Consult a healthcare provider for comprehensive evaluation.
+confusion agitation in elderly sudden onset,Delirium,Seek prompt medical evaluation to identify the underlying cause.
+gradual memory decline difficulty with daily tasks,Dementia,Arrange neurological and cognitive assessment.
+uncontrolled movements of face and limbs,Tardive Dyskinesia,Consult a neurologist about medication review.
+sudden inability to move one side of face,Bell Palsy,Seek prompt medical evaluation.
+electric shock sensation neck bending forward,Lhermitte Sign,Consult a neurologist for evaluation.
+progressive vision and hearing loss in child,Usher Syndrome,Arrange pediatric neurological and sensory evaluation.
+recurrent fainting spells,Syncope,Consult a healthcare provider for cardiac evaluation.
+palpitations after caffeine or stress,Benign Palpitations,Reduce stimulant intake and consult a healthcare provider if frequent.
+chest pain worse with breathing after long flight,Pulmonary Embolism,Seek emergency medical attention immediately.
+swollen abdomen fluid wave fatigue,Ascites,Consult a healthcare provider for liver evaluatiation abdominal pain in child,Pediatric Constipation,Increase fiber and fluids and consult a pediatrician.
+bedwetting daytime accidents in older child,Enuresis,Consult a pediatrician for evaluation.
+recurrent urinary infections in child,Vesicoureteral Reflux,Consult a pediatric urologist for evaluation.
+blood in urine no pain,Painless Hematuria,Seek prompt urological evaluation.
+foamy urine swelling around eyes,Proteinuria,Consult a nephrologist for evaluation.
+decreased urine output swelling confusion,Acute Kidney Injury,Seek emergency medical evaluation immediately.
+persistent fatigue itching in kidney disease,Chronic Kidney Disease,Consult a nephrologist for evaluation and monitoring.
+    
+
+
+
+
