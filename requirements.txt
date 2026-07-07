@@ -1,6 +1,2 @@
 streamlit
-groq
-langchain
-pypdf
-chromadb
-requests
+anthropic
