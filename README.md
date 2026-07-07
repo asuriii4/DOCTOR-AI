@@ -23,8 +23,6 @@ Medical AI caught my attention because:
    scale, not just demos. This mirrors my journey from CTF problem-solving 
    (one-off exploits) to real engineering (maintainable systems).
 
-4. **Bridging Two Worlds** — My background is in hacking and cryptography, but 
-   my partner works in IT/healthcare. Combining those interests felt natural.
 
 The project taught me:
 - How LLMs can be controlled and constrained (prompt engineering at scale)
