@@ -1,6 +1,10 @@
 # DOCTOR-AI
 Doctor AI is a production-grade medical chatbot powered by Groq LLM and RAG technology. It combines local medical knowledge bases with live web search to provide evidence-based health information, complete with safety disclaimers and professional guidance.
 
+
+<img width="1815" height="795" alt="image" src="https://github.com/user-attachments/assets/a626f332-7c15-474e-9471-a736902f3b57" />
+
+
 # Why I Built This
 
 I started learning cybersecurity and web security through CTF competitions and 
